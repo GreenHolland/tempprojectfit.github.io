@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>StickyMobile BootStrap</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+
+<body class="theme-light" data-highlight="highlight-red" data-gradient="body-default">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <div id="footer-bar" class="footer-bar-1">
+            <a href="home.html"><i class="fa fa-home"></i><span>Home</span></a>
+            <a href="#"><i class="fa-regular fa-ballot-check"></i><span>Orders</span></a>
+            <a href="stats.html" class="active-nav"><i class="fa-regular fa-chart-simple"></i><span>Stats</span></a>
+            <a href="#"><i class="fa-regular fa-bookmark"></i><span>Saved</span></a>
+            <a href="#"><i class="fa-regular fa-user"></i><span>Profile</span></a>
+        </div>
+
+        <div class="page-content">
+
+            <div class="content mt-3">
+                <div class="d-flex">
+                    <div class="align-self-center">
+                        <span class="font-14">Viewing,</span>
+                        <h4 class="font-600 color-dark mb-0 mt-n2 font-18">Statistics</h4>
+                    </div>
+                    <div class="align-self-center ms-auto">
+                        <a href="#" class="icon icon-s bg-gray-light rounded-l rounded-m ms-2 color-theme"><i
+                                class="fa-regular fa-ellipsis-stroke font-14"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content" id="tab-group-3">
+                <div class="tab-controls tabs-small bg-gray-light rounded-pill p-2" data-highlight="bg-white">
+                    <a href="#" class="rounded-pill no-effect font-14" data-active data-bs-toggle="collapse"
+                        data-bs-target="#tab-8">Daily</a>
+                    <a href="#" class="rounded-pill no-effect font-14" data-bs-toggle="collapse"
+                        data-bs-target="#tab-9">Monthly</a>
+                </div>
+                <div class="clearfix"></div>
+                <div data-bs-parent="#tab-group-3" class="collapse show" id="tab-8">
+                    <div class="content">
+                        <h3 class="font-600 mb-2">Nutrient Intake Trends</h3>
+                        <div class="chart-container" style="width:100%; height:300px;">
+                            <canvas class="graph" id="line-chart" /></canvas>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="font-600 mb-2">Weekly Nutrient Intake Trends</h3>
+                        <div class="chart-container" style="width:100%; height:300px;">
+                            <canvas class="graph" id="vertical-chart" /></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div data-bs-parent="#tab-group-3" class="collapse" id="tab-9">
+                    <div class="content">
+                        <h3 class="font-600 mb-2">Nutrient Intake Trends</h3>
+                        <div class="chart-container" style="width:100%; height:300px;">
+                            <canvas class="graph" id="monthlyLineChart" /></canvas>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <h3 class="font-600 mb-2">Monthly Nutrient Intake Trends</h3>
+                        <div class="chart-container" style="width:100%; height:300px;">
+                            <canvas class="graph" id="monthlyPieChart" /></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Menu Share -->
+        <div id="menu-share" class="menu menu-box-bottom menu-box-detached">
+            <div class="menu-title mt-n1">
+                <h1>Share the Love</h1>
+                <p class="color-highlight">Just Tap the Social Icon. We'll add the Link</p><a href="#"
+                    class="close-menu"><i class="fa fa-times"></i></a>
+            </div>
+            <div class="content mb-0">
+                <div class="divider mb-0"></div>
+                <div class="list-group list-custom-small list-icon-0">
+                    <a href="#" class="shareToFacebook external-link">
+                        <i class="font-18 fab fa-facebook-square color-facebook"></i>
+                        <span class="font-13">Facebook</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="#" class="shareToTwitter external-link">
+                        <i class="font-18 fab fa-twitter-square color-twitter"></i>
+                        <span class="font-13">Twitter</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="#" class="shareToLinkedIn external-link">
+                        <i class="font-18 fab fa-linkedin color-linkedin"></i>
+                        <span class="font-13">LinkedIn</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="#" class="shareToWhatsApp external-link">
+                        <i class="font-18 fab fa-whatsapp-square color-whatsapp"></i>
+                        <span class="font-13">WhatsApp</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="#" class="shareToMail external-link border-0">
+                        <i class="font-18 fa fa-envelope-square color-mail"></i>
+                        <span class="font-13">Email</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>

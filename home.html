@@ -1,0 +1,694 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>StickyMobile BootStrap</title>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/css/all.min.css">
+    <link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+    <link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+
+<body class="theme-light" data-highlight="highlight-red" data-gradient="body-default">
+
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
+
+    <div id="page">
+
+        <div id="footer-bar" class="footer-bar-1">
+            <a href="home.html" class="active-nav"><i class="fa fa-home"></i><span>Home</span></a>
+            <a href="#"><i class="fa-regular fa-ballot-check"></i><span>Orders</span></a>
+            <a href="stats.html"><i class="fa-regular fa-chart-simple"></i><span>Stats</span></a>
+            <a href="#"><i class="fa-regular fa-bookmark"></i><span>Saved</span></a>
+            <a href="#"><i class="fa-regular fa-user"></i><span>Profile</span></a>
+        </div>
+
+        <div class="page-content">
+
+            <div class="content mt-3">
+                <div class="d-flex">
+                    <div class="align-self-center">
+                        <span class="font-12">Address,</span>
+                        <h4 class="font-600 color-dark mb-0 mt-n2 font-16">Othonos 12, Kifisia</h4>
+                    </div>
+                    <div class="align-self-center ms-auto">
+                        <a href="#" class="icon icon-s bg-gray-light rounded-l rounded-m ms-2 color-theme"><i
+                                class="fa-regular fa-shopping-cart font-14"></i></a>
+                        <a href="#" class="icon icon-s bg-gray-light rounded-l rounded-m ms-2 color-theme"><i
+                                class="fa-regular fa-bell font-14"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="content mt-n1">
+                <div class="search-box bg-gray-light border-0 rounded-pill">
+                    <i class="fa-regular fa-magnifying-glass mt-0 font-16"></i>
+                    <input type="text" class="border-0 font-300" placeholder="Search for food or category" data-search>
+                    <a href="#" class="clear-search disabled mt-0"><i class="fa fa-times color-red-dark"></i></a>
+                </div>
+            </div>
+            <div class="search-no-results disabled mt-n3">
+                <div class="card card-style">
+                    <div class="content">
+                        <h1>No Results</h1>
+                        <p>
+                            It seems like your search didn’t yield any results. Try using a different keyword.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="card card-style rounded-ml" data-menu="menu-story"
+                style="background-image:url(images/grocery/pans.jpg);" data-card-height="125">
+                <div class="card-top pt-3 px-3">
+                    <h1 class="color-black line-height-m font-25">
+                        Lunch
+                    </h1>
+                </div>
+            </a>
+
+            <div class="bg-dark card card-style">
+                <div class="content">
+                    <div class="">
+                        <div class="col-9">
+                            <h3 class="font-600 color-white">Your Weekly Menu, Sorted!</h3>
+                            <p class="font-12 color-white opacity-60 mt-n1 line-height-m">
+                                15 of our best meals based on your needs.
+                            </p>
+                        </div>
+                        <a href="#" class="mt-4 btn btn-s w-50 rounded-pill font-500 bg-highlight">Get
+                            Offer</a>
+                        <div class="col-3 float-end mt-n4 me-n1">
+                            <img src="images/grocery/food2.png" width="90">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="d-flex px-3">
+                <div class="align-self-center">
+                    <h3 class="font-600 mb-0">Most Popular</h3>
+                </div>
+                <div class="align-self-center ms-auto">
+                    <a href="#" class="font-12 color-green-dark">View All</a>
+                </div>
+            </div>
+
+            <div class="content mt-2 mb-n5">
+                <div class="row">
+                    <div class="col-6 pe-2 mb-n4">
+                        <a href="#" class="card card-style mx-0 mb-0" data-menu="menu-product"
+                            style="background-image:url(images/grocery/meal1.jpg)" data-card-height="120">
+                            <div class="m-2">
+                                <span class="bg-white font-11 px-2 py-1 font-400 rounded-pill"><i
+                                        class="fa fa-star color-yellow-dark font-11"></i><span class="color-black">
+                                        4.6</span></span>
+                            </div>
+                        </a>
+                        <div class="py-2">
+                            <h6 class="font-600 mb-0">Meatballs & Potatoes</h6>
+                            <p class="color-black line-height-s mb-0">
+                                <span class="font-12">
+                                    511 <span class="opacity-60">kcal</span>
+                                    47 <span class="opacity-60">C</span>
+                                    48 <span class="opacity-60">P</span>
+                                    14 <span class="opacity-60">F</span>
+                                </span>
+                            <p class="color-theme font-500 font-14">6,80€</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-n4">
+                        <a href="#" class="card card-style mx-0 mb-0"
+                            style="background-image:url(images/grocery/meal4.jpg)" data-card-height="120">
+                            <div class="m-2">
+                                <span class="bg-white font-11 px-2 py-1 font-400 rounded-pill"><i
+                                        class="fa fa-star color-yellow-dark font-11"></i><span class="color-black">
+                                        4.4</span></span>
+                            </div>
+                        </a>
+                        <div class="py-2">
+                            <h6 class="font-600 mb-0">Barley & Shrimps</h6>
+                            <p class="color-black line-height-s mb-0">
+                                <span class="font-12">
+                                    438 <span class="opacity-60">kcal</span>
+                                    64 <span class="opacity-60">C</span>
+                                    38 <span class="opacity-60">P</span>
+                                    5 <span class="opacity-60">F</span>
+                                </span>
+                            <p class="color-theme font-500 font-14">7,20€</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 pe-2 mb-n4">
+                        <a href="#" class="card card-style mx-0 mb-0"
+                            style="background-image:url(images/grocery/meal3.jpg)" data-card-height="120">
+                            <div class="m-2">
+                                <span class="bg-white font-11 px-2 py-1 font-400 rounded-pill"><i
+                                        class="fa fa-star color-yellow-dark font-11"></i><span class="color-black">
+                                        4.5</span></span>
+                            </div>
+                        </a>
+                        <div class="py-2">
+                            <h6 class="font-600 mb-0">Carbonara</h6>
+                            <p class="color-black line-height-s mb-0">
+                                <span class="font-12">
+                                    547 <span class="opacity-60">kcal</span>
+                                    43 <span class="opacity-60">C</span>
+                                    61 <span class="opacity-60">P</span>
+                                    14 <span class="opacity-60">F</span>
+                                </span>
+                            <p class="color-theme font-500 font-14">5,80€</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-n4">
+                        <a href="#" class="card card-style mx-0 mb-0"
+                            style="background-image:url(images/grocery/meal2.jpg)" data-card-height="120">
+                            <div class="m-2">
+                                <span class="bg-white font-11 px-2 py-1 font-400 rounded-pill"><i
+                                        class="fa fa-star color-yellow-dark font-11"></i><span class="color-black">
+                                        4.2</span></span>
+                            </div>
+                        </a>
+                        <div class="py-2">
+                            <h6 class="font-600 mb-0">Chicken & Vegetables</h6>
+                            <p class="color-black line-height-s mb-0">
+                                <span class="font-12">
+                                    264 <span class="opacity-60">kcal</span>
+                                    6 <span class="opacity-60">C</span>
+                                    51 <span class="opacity-60">P</span>
+                                    4 <span class="opacity-60">F</span>
+                                </span>
+                            <p class="color-theme font-500 font-14">5,50€</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- End of Page Content-->
+
+        <div id="snackbar-1" class="snackbar-toast bg-green-dark color-white" data-bs-delay="1000" data-autohide="true">
+            <i class="fa fa-check-circle me-3"></i>Added Produce to Cart
+        </div>
+
+        <!-- Story Menu -->
+        <div id="menu-story" class="menu menu menu-box-bottom bg-dark-dark rounded-0 mh-100" data-menu-height="cover"
+            data-menu-width="cover">
+            <div class="card bg-5 rounded-0 mb-0" data-card-height="cover">
+                <div class="card-top">
+                    <a href="#"
+                        class="icon icon-xxs rounded-pill bg-fade-gray-light color-white font-600 ms-3 mt-4 position-absolute close-menu">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <h1 class="color-white font-18 mt-4 text-center">
+                        Top Picks for Lunch
+                    </h1>
+                </div>
+                <div class="content pt-5 mt-5 z-1">
+                    <a data-bs-toggle="collapse" href="#collapse-1">
+                        <div class="bg-white mb-4 rounded-ml mx-3">
+                            <div class="p-2">
+                                <div class="card mb-0 pb-0 bg-1 rounded-ml" style="height:150px">
+                                    <div class="card-bottom p-3">
+                                        <h1 class="color-white mb-n1">Meatballs & Potatoes</h1>
+                                    </div>
+                                    <div class="card-overlay bg-gradient rounded-ml opacity-60"></div>
+                                </div>
+                                <div class="collapse pb-2" id="collapse-1">
+                                    <div class="content">
+                                        <div class="row mb-0 text-center">
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="mb-2 fa-solid fa-star me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">4.6</h3>
+                                                        <span class="font-12 color-dark-dark">Rating</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i
+                                                        class="mb-2 fa-solid fa-users me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">430+</h3>
+                                                        <span class="font-12 color-dark-dark">Reviews</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="mb-2 fa-solid fa-tag me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">6,80€</h3>
+                                                        <span class="font-12 color-dark-dark">Price</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5 class="font-600 mt-3 mb-2">Nutritional Values</h5>
+                                        <div class="row mb-0 text-center">
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 color-dark-dark mb-n2">Calories</span>
+                                                    <h5 class="font-600 d-block color-theme">511</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 color-dark-dark mb-n2">Protein</span>
+                                                    <h5 class="font-600 d-block color-theme">48 g</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 color-dark-dark mb-n2">Fat</span>
+                                                    <h5 class="font-600 d-block color-theme">14 g</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 color-dark-dark mb-n2">Carbs</span>
+                                                    <h5 class="font-600 d-block color-theme">47 g</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5 class="font-600 mt-3">About</h5>
+                                        <p class="mb-2">
+                                            Savor lean beef meatballs paired with tender baby potatoes, all seasoned to
+                                            perfection. High in protein, rich in flavor!
+                                        </p>
+                                        <h5 class="font-600 mt-3">Ingredients</h5>
+                                        <p class="mb-2">
+                                            Lean ground beef, baby potatoes, bread, eggs, onion, tomato, pepper, beef
+                                            broth, olive oil, salt, parmesan, lemon wedge.
+                                        </p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn btn-s rounded-m m-3 font-500 bg-highlight color-white btn-full mt-3">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a data-bs-toggle="collapse" href="#collapse-2">
+                        <div class="bg-white mb-4 rounded-ml mx-3">
+                            <div class="p-2">
+                                <div class="card mb-0 pb-0 bg-2 rounded-ml" style="height:150px">
+                                    <div class="card-bottom p-3">
+                                        <h1 class="color-white mb-n1">Chicken & Vegetables</h1>
+                                    </div>
+                                    <div class="card-overlay bg-gradient rounded-ml opacity-60"></div>
+                                </div>
+                                <div class="collapse pb-2" id="collapse-2">
+                                    <div class="content">
+                                        <div class="row mb-0 text-center">
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="mb-2 fa-solid fa-star me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">4.4</h3>
+                                                        <span class="font-12">Rating</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i
+                                                        class="mb-2 fa-solid fa-users me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">320+</h3>
+                                                        <span class="font-12">Reviews</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="mb-2 fa-solid fa-tag me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">5,50€</h3>
+                                                        <span class="font-12">Price</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5 class="font-600 mt-3 mb-2">Nutritional Values</h5>
+                                        <div class="row mb-0 text-center">
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 mb-n2">Calories</span>
+                                                    <h5 class="font-600 d-block color-theme">264</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 mb-n2">Protein</span>
+                                                    <h5 class="font-600 d-block color-theme">51 g</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 mb-n2">Fat</span>
+                                                    <h5 class="font-600 d-block color-theme">4 g</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 mb-n2">Carbs</span>
+                                                    <h5 class="font-600 d-block color-theme">6 g</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5 class="font-600 mt-3">About</h5>
+                                        <p class="mb-2">
+                                            Enjoy tender grilled chicken fillet with roasted veggies, paired with a
+                                            light honey-mustard sauce. Low in calories, big on flavor!
+                                        </p>
+                                        <h5 class="font-600 mt-3">Ingredients</h5>
+                                        <p class="mb-2">
+                                            Chicken fillet, eggplant, zucchini, green peppers, red peppers, onion,
+                                            garlic, mustard, lemon, spices, olive oil.
+                                        </p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn btn-s rounded-m m-3 font-500 bg-highlight color-white btn-full mt-3">Order
+                                        Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-bs-toggle="collapse" href="#collapse-3">
+                        <div class="bg-white mb-4 rounded-ml mx-3">
+                            <div class="p-2">
+                                <div class="card mb-0 pb-0 bg-3 rounded-ml" style="height:150px">
+                                    <div class="card-bottom p-3">
+                                        <h1 class="color-white mb-n1">Carbonara</h1>
+                                    </div>
+                                    <div class="card-overlay bg-gradient rounded-ml opacity-60"></div>
+                                </div>
+                                <div class="collapse pb-2" id="collapse-3">
+                                    <div class="content">
+                                        <div class="row mb-0 text-center">
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="mb-2 fa-solid fa-star me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">4.5</h3>
+                                                        <span class="font-12">Rating</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i
+                                                        class="mb-2 fa-solid fa-users me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">280+</h3>
+                                                        <span class="font-12">Reviews</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 d-flex flex-column align-items-center">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="mb-2 fa-solid fa-tag me-2 color-yellow-dark font-16"></i>
+                                                    <div>
+                                                        <h3 class="font-600 color-dark mb-n2">5,80€</h3>
+                                                        <span class="font-12">Price</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5 class="font-600 mt-3 mb-2">Nutritional Values</h5>
+                                        <div class="row mb-0 text-center">
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 mb-n2">Calories</span>
+                                                    <h5 class="font-600 d-block color-theme">547</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 mb-n2">Protein</span>
+                                                    <h5 class="font-600 d-block color-theme">61 g</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 mb-n2">Fat</span>
+                                                    <h5 class="font-600 d-block color-theme">14 g</h5>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="border border-theme rounded-s p-1">
+                                                    <span class="d-block font-10 mb-n2">Carbs</span>
+                                                    <h5 class="font-600 d-block color-theme">43 g</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h5 class="font-600 mt-3">About</h5>
+                                        <p class="mb-2">
+                                            A classic carbonara recipe, reimagined for fitness lovers. Whole wheat
+                                            linguine and lean pork fillet make it nutritious and delicious!
+                                        </p>
+                                        <h5 class="font-600 mt-3">Ingredients</h5>
+                                        <p class="mb-2">
+                                            Whole wheat linguine, pork fillet, milk, Grana Padano cheese, egg, chives,
+                                            corn flour.
+                                        </p>
+                                    </div>
+                                    <a href="#"
+                                        class="btn btn-s rounded-m m-3 font-500 bg-highlight color-white btn-full mt-3">Order
+                                        Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-overlay bg-black opacity-50"></div>
+            </div>
+        </div>
+
+        <!--Menu Offer-->
+        <div id="menu-offer" class="menu menu-box-bottom menu-box-detached" data-menu-height="360">
+            <div class="card card-style mx-0 rounded-0" style="background-image:url(images/grocery/5.jpg)"
+                data-card-height="170">
+                <div class="card-center">
+                    <div class="bg-white d-inline-block px-4 py-3 ms-n3 rounded-m">
+                        <h1 class="ps-2 color-black font-22 font-800 mb-n1">40% Off for You</h1>
+                        <p class="ps-2 color-black font-12 mb-0">Help your Local Businesses</p>
+                    </div>
+                </div>
+                <div class="card-overlay bg-black opacity-40 rounded-0"></div>
+            </div>
+            <div class="content mt-n2">
+                <h1>Here for Small Owners</h1>
+                <p class="mb-3">
+                    This offer applies to any product from the fruit category from locals and applies directly in your
+                    cart.
+                </p>
+                <a href="#" class="btn btn-m rounded-sm text-uppercase font-700 btn-full bg-highlight">View
+                    Categories</a>
+            </div>
+        </div>
+
+        <!--Menu Product-->
+        <div id="menu-product" class="menu menu-box-bottom menu-box-detached" data-menu-height="450">
+            <div class="card card-style mx-0 rounded-0" style="background-image:url(images/grocery/meal1.jpg)"
+                data-card-height="210">
+                <div class="card-top">
+                    <a href="#"
+                        class="icon icon-xxs rounded-pill bg-white color-red-dark text-uppercase font-600 m-3"><i
+                            class="far fa-heart"></i></a>
+                </div>
+                <div class="card-top">
+                    <a href="#"
+                        class="icon icon-xxs rounded-pill bg-white color-black text-uppercase font-600 m-3 float-end close-menu"><i
+                            class="fa fa-times"></i></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3 class="font-600 mt-n3 mb-3">Meatballs & Potatoes</h3>
+                <div class="row mb-0 text-center">
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center">
+                            <i class="mb-2 fa-solid fa-star me-2 color-yellow-dark font-16"></i>
+                            <div>
+                                <h3 class="font-600 color-dark mb-n2">4.6</h3>
+                                <span class="font-12">Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center">
+                            <i class="mb-2 fa-solid fa-users me-2 color-yellow-dark font-16"></i>
+                            <div>
+                                <h3 class="font-600 color-dark mb-n2">430+</h3>
+                                <span class="font-12">Reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex flex-column align-items-center">
+                        <div class="d-flex align-items-center">
+                            <i class="mb-2 fa-solid fa-tag me-2 color-yellow-dark font-16"></i>
+                            <div>
+                                <h3 class="font-600 color-dark mb-n2">6,80€</h3>
+                                <span class="font-12">Price</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="font-600 mt-3 mb-2">Nutritional Values</h5>
+                <div class="row mb-0 text-center">
+                    <div class="col-3">
+                        <div class="border border-theme rounded-s p-1">
+                            <span class="d-block font-10 mb-n2">Calories</span>
+                            <h5 class="font-600 d-block color-theme">511</h5>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="border border-theme rounded-s p-1">
+                            <span class="d-block font-10 mb-n2">Protein</span>
+                            <h5 class="font-600 d-block color-theme">48 g</h5>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="border border-theme rounded-s p-1">
+                            <span class="d-block font-10 mb-n2">Fat</span>
+                            <h5 class="font-600 d-block color-theme">14 g</h5>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="border border-theme rounded-s p-1">
+                            <span class="d-block font-10 mb-n2">Carbs</span>
+                            <h5 class="font-600 d-block color-theme">47 g</h5>
+                        </div>
+                    </div>
+                </div>
+                <h5 class="font-600 mt-3">About</h5>
+                <p class="mb-2">
+                    Savor lean beef meatballs paired with tender baby potatoes, all seasoned to perfection. High in
+                    protein, rich in flavor!
+                </p>
+                <h5 class="font-600 mt-3">Ingredients</h5>
+                <p class="mb-2">
+                    Lean ground beef, baby potatoes, bread, eggs, onion, tomato, pepper, beef broth, olive oil, salt,
+                    parmesan, lemon wedge.
+                </p>
+            </div>
+            <a href="#" class="btn btn-s rounded-m m-3 font-500 bg-highlight color-white btn-full mt-3">Checkout</a>
+        </div>
+
+        <!-- Menu Action Sheet Cart-->
+        <div id="menu-cart" class="menu menu-box-bottom menu-box-detached">
+            <div class="menu-title">
+                <h1>Shopping Bag</h1>
+                <p class="color-highlight">Your Current Cart Products</p><a href="#" class="close-menu"><i
+                        class="fa fa-times"></i></a>
+            </div>
+            <div class="divider divider-margins"></div>
+
+            <div class="content mb-0">
+                <div class="d-flex mb-4">
+                    <div>
+                        <img src="images/grocery/7s.jpg" class="rounded-m shadow-xl" width="100" alt="img">
+                    </div>
+                    <div class="ms-3 w-100">
+                        <h3>Organic Oranges</h3>
+                        <p class="mb-3 mt-n1">European Imported</p>
+                        <div class="stepper rounded-s scale-switch ms-n1 float-start">
+                            <a href="#" class="stepper-sub"><i class="fa fa-minus color-theme opacity-40"></i></a>
+                            <input type="number" min="1" max="99" value="3">
+                            <a href="#" class="stepper-add"><i class="fa fa-plus color-theme opacity-40"></i></a>
+                        </div>
+                        <h5 class="float-end pt-1">$12.10</h5>
+                    </div>
+                </div>
+                <div class="d-flex mb-4">
+                    <div>
+                        <img src="images/grocery/5s.jpg" class="rounded-m shadow-xl" width="100" alt="img">
+                    </div>
+                    <div class="ms-3 w-100">
+                        <h3>Ripe Peaches</h3>
+                        <p class="mb-3 mt-n1">From Our Local Farms</p>
+                        <div class="stepper rounded-s scale-switch ms-n1 float-start">
+                            <a href="#" class="stepper-sub"><i class="fa fa-minus color-theme opacity-40"></i></a>
+                            <input type="number" min="1" max="99" value="3">
+                            <a href="#" class="stepper-add"><i class="fa fa-plus color-theme opacity-40"></i></a>
+                        </div>
+                        <h5 class="float-end pt-1">$12.10</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="divider divider-margins"></div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-6"><a href="#"
+                            class="btn btn-full btn-m font-800 rounded-sm text-uppercase bg-green-dark">Cart Page</a>
+                    </div>
+                    <div class="col-6"><a href="#"
+                            class="btn btn-full btn-m font-800 rounded-sm text-uppercase bg-blue-dark">Checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Share -->
+        <div id="menu-share" class="menu menu-box-bottom menu-box-detached">
+            <div class="menu-title mt-n1">
+                <h1>Share the Love</h1>
+                <p class="color-highlight">Just Tap the Social Icon. We'll add the Link</p><a href="#"
+                    class="close-menu"><i class="fa fa-times"></i></a>
+            </div>
+            <div class="content mb-0">
+                <div class="divider mb-0"></div>
+                <div class="list-group list-custom-small list-icon-0">
+                    <a href="#" class="shareToFacebook external-link">
+                        <i class="font-18 fab fa-facebook-square color-facebook"></i>
+                        <span class="font-13">Facebook</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="#" class="shareToTwitter external-link">
+                        <i class="font-18 fab fa-twitter-square color-twitter"></i>
+                        <span class="font-13">Twitter</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="#" class="shareToLinkedIn external-link">
+                        <i class="font-18 fab fa-linkedin color-linkedin"></i>
+                        <span class="font-13">LinkedIn</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="#" class="shareToWhatsApp external-link">
+                        <i class="font-18 fab fa-whatsapp-square color-whatsapp"></i>
+                        <span class="font-13">WhatsApp</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <a href="#" class="shareToMail external-link border-0">
+                        <i class="font-18 fa fa-envelope-square color-mail"></i>
+                        <span class="font-13">Email</span>
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+</body>
